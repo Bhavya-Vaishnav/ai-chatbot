@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
 
     header{
         display:flex;
@@ -15,6 +16,7 @@
             font-weight: bold;
             gap: 8px;
         }
+
         img{
                 width: 32px;
                 height: 32px;
