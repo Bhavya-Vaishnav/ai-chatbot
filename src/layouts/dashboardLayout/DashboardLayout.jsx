@@ -1,11 +1,11 @@
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router-dom";
 import "./dashboardLayout.css";
 import { useAuth } from "@clerk/clerk-react";
 import { useEffect } from "react";
 
 const DashboardLayout = () => {
   const { userId, isLoaded } = useAuth();
-  const  navigate = useNavigate();
+  const { navigate } = useNavigation();
 
   useEffect(() => {
     if (isLoaded && !userId) {
