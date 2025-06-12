@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.31.9",
+    "@imagekit/react": "^5.0.1",
     "react": "19.0.0-rc-8b08e99e-20240713",
     "react-dom": "19.0.0-rc-8b08e99e-20240713",
-    "react-router-dom": "^7.6.2"
+    "react-router-dom": "^7.6.2",
+    "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
